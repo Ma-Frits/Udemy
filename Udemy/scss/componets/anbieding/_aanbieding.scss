@@ -1,0 +1,68 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+.aanbiedingen{
+    height: 70vh;
+   
+}
+
+.aanbiedingen__h2{
+    font-size: 200%;
+    padding: 3rem;
+}
+
+.aanbiedingen__p1{
+    width: 70ch;
+    font-size: 130% ;
+    padding-left: 3rem;
+    
+}
+
+.aanbiedingen__ul{
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-weight: 600;
+ 
+}
+
+.aanbiedingen__li{
+    font-size: 100%;
+    color: rgb(81, 73, 73);
+
+    &:hover{
+        color: colors.$font-color;
+        cursor: pointer;
+    }
+}
+
+.aanbieding__div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1rem;
+    width: 90%;
+    padding: 2rem;
+    height: 15rem;
+     border: 0.2rem solid rgba(87, 87, 87,0.3);
+}
+
+.aanbiedingen__p_2{
+    width: 90ch;
+}
+
+.aanbieding__button{
+    border: 0.2rem solid colors.$font-color;
+    background: colors.$background;
+    padding: 1rem;
+    font-weight: 800;
+    width: 10rem;
+
+    &:hover{
+        background: rgb(207, 207, 207,0.3);
+        cursor: pointer;
+    }
+}
+
+

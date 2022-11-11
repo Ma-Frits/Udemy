@@ -1,0 +1,64 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+.WordEengamer{
+    height: 60vh;
+    background: colors.$color;
+
+
+}
+.Gamer{
+    @include mixins.flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    height: 100% ;
+  
+    
+}
+
+.Gamer__figure{
+    height: 60rem;
+    width: 60rem;
+    padding: 3rem;
+    position: relative;
+}
+.over__Gamer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.Gamer__p{
+    width: 45ch; 
+    font-size: 150%;
+    &__h2{
+        width: 55ch; 
+        font-size: 2rem;
+    }
+}
+
+.Gamer__button{
+    border: 0.2rem solid colors.$font-color;
+    padding: 1rem;
+    background: colors.$black-trensparent;
+    color: colors.$color;
+    font-weight: 800;
+    width: 30rem;
+    height: 5rem;
+    
+    &:hover{
+        background: colors.$font-color;
+        cursor: pointer;
+    }
+}
+
+.Gamer__img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 0.5rem;  
+    background :linear-gradient(to bottom right ,rgba(22, 33, 62,0.3),80% ,rgba(233, 69, 96,0.2));
+    border: 0.1rem solid colors.$font-color;
+
+}

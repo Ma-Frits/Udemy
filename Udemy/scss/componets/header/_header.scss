@@ -1,0 +1,124 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+.header__udemy{
+height: 8rem;
+
+
+}
+.nav__udemy{
+    height: 8rem;
+    max-width: 100vw;
+    box-shadow: 0 0 1rem 0 colors.$black-trensparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+
+}
+
+.listItem__udemy{
+list-style: none;
+&:hover{
+    cursor: pointer;
+}
+}
+
+.logo__udemy{
+height: 4rem;
+background: white;
+padding-left: 1rem;
+padding-right: 1rem;
+
+
+}
+
+.header__button{
+    height: 5rem;
+    width: 45rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background: rgb(250, 250, 250);
+    color: gray;
+}
+.header__search{
+    font-size: 2rem;
+}
+
+.seach__udemy{
+    width: 40rem;
+    height: 4rem;
+    font-size: 120%;
+    border: none;
+    background: rgb(250, 250, 250);
+    padding-left: 1rem;
+
+    &:focus{
+        outline: none;
+    }
+ 
+
+}
+
+.header__p{
+    font-size: 100%;
+
+    &:hover{
+        color: colors.$color-hover;
+    }
+}
+
+.header__shoppingCart{
+  font-size: 150%;
+
+  &:hover{
+    color:  colors.$color-hover;
+  }
+
+}
+
+.header__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 4rem;
+    font-size: 1.6rem;
+}
+
+.inloggen__udemy{
+    border: 0.2rem solid colors.$font-color;
+    padding: 1rem;
+    font-weight: 800;
+    &:hover{
+        background: rgb(207, 207, 207,0.3);
+    }
+    
+}
+.inschrijven__udemy{
+    border: 0.2rem solid colors.$font-color;
+    padding: 1rem;
+    background: colors.$black-trensparent;
+    color: white;
+    font-weight: 800;
+    
+    &:hover{
+        background: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+}
+.globe__udemy{
+  
+    border: 0.2rem solid colors.$font-color;
+    padding: 1rem;
+    font-size: 120%;
+
+    &:hover{
+        background: rgb(207, 207, 207,0.3);
+    }
+}
+
+

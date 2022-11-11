@@ -1,0 +1,45 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+.BesteConsoles{
+    height: 40rem;
+    width: 100%;
+    background: rgba(225, 225, 225, 0.636);
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.BesteConsoles__h2{
+    padding: 4rem;
+
+}
+
+.section__BesteConsoles{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.consoles__figure{
+    padding: 2rem; 
+}
+
+.Game__img{
+    height: 15rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+}
+
+.BesteConsoles__h3{
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+

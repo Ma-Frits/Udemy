@@ -1,0 +1,70 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+
+.section__Games{
+    height: 20rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 4rem;
+    
+}
+
+
+.Games__h2{
+    padding: 4rem;
+    padding-top: 8rem;
+    display: block;
+   
+}
+
+.Games__img{
+    height: 20rem;
+    width: 20rem;
+   object-fit: contain;
+   flex-wrap: wrap;
+   
+    
+    
+&:hover{
+    cursor: pointer;
+}
+}
+
+.Games__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+    width: 80%;
+
+}
+
+.Games__li{
+    
+    min-height: 20rem;
+    background: darkcyan;
+    list-style: none;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: colors.$background;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0,0.2);
+}
+
+.Games__arrow{
+    width: 5rem;
+    height: 5rem;
+  background: none;
+    color: colors.$font-color;
+    font-size: 400%;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    &:hover{
+        cursor: pointer;
+    }
+}

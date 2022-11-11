@@ -1,0 +1,13 @@
+@use  "../../abstract/colors/colors";
+@use "../../abstract/mixins/mixins";
+
+.udemy__footer{
+    height: 20rem;
+    width: 100%;
+    background: colors.$black-trensparent;
+}
+
+
+.footer{
+
+}
